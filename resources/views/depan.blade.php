@@ -187,11 +187,16 @@
                   <!-- Partner Modal - Text-->
                   {!!$item->content!!}
                   <div class="m-5">
-                    link:<a href="{{$item->link}}" target="blank">{{$item->link}}</a>
+                    link:<a href="{{$item->link}}" target="blank">{!! $item->link!!}</a>
                   </div>
                   <button class="btn btn-primary" data-bs-dismiss="modal">
                     <i class="fas fa-xmark fa-fw"></i>
                     Close Window
+                  </button>
+                  
+                  <a class="btn btn-primary" href="https://wa.link/5m4onp" role="button">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Pesan Sekarang</a>
                   </button>
                 </div>
               </div>
